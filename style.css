@@ -1,38 +1,63 @@
+/* set body text to Arial*/
 body {
-	font-family: Arial;
-	font-size: 20x;
+    font-family: Arial;
 }
 
+
+/* class to center to text */
 .centered {
-	text-align: center;
-}
-
-.flex-container {
-  display: flex; /* or inline-flex */
-}
-
-.left-item {
-  flex-basis: 60%
+    text-align: center;
 }
 
 
-circle {
-	fill: limegreen;
+/* set flexbox row */
+.row {
+    display: flex;
+  }  
+
+
+
+/* set flexbox columns to the left with 60% */
+.left-column {
+    flex: 60%;
 }
 
 
+/* set flexbox column to the right at 40% */
+.right-column {
+    flex: 40;
+}
+
+
+/* set size and margins for svg frame */
 #frame {
-	width: 500px;
-	height: 500px;
-}
-
-.line {
-	stroke:darkblue;
-	stroke-width: 10
+    width: 500px;
+    height: 500px;
+    margin-left: 20px;
 }
 
 
-.line2 {
-	stroke:red;
-	stroke-width: 10
+/* add hover color change to circles */
+circle {
+    fill: blue;
+}
+
+
+/* add hover color change to circles */
+circle:hover {
+    fill: red;
+}
+
+
+
+/* set style settings for axis lines*/
+line {
+    stroke-width: 1;
+    stroke: black;
+}
+
+/* class to add border to svg circles*/
+.bordered {
+    stroke: green;
+    stroke-width: 5px;
 }
