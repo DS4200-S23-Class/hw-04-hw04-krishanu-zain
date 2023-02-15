@@ -1,0 +1,38 @@
+body {
+	font-family: Arial;
+	font-size: 20x;
+}
+
+.centered {
+	text-align: center;
+}
+
+.flex-container {
+  display: flex; /* or inline-flex */
+}
+
+.left-item {
+  flex-basis: 60%
+}
+
+
+circle {
+	fill: limegreen;
+}
+
+
+#frame {
+	width: 500px;
+	height: 500px;
+}
+
+.line {
+	stroke:darkblue;
+	stroke-width: 10
+}
+
+
+.line2 {
+	stroke:red;
+	stroke-width: 10
+}
